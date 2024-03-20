@@ -1,0 +1,46 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-color:  #353941;
+}
+h1{
+    color: white;
+    padding: 2px;
+}
+.conteiner{
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #26282b;
+    width: 50%;
+    height: 400px;
+}
+input{
+    padding: 2px;
+    border: 5px #000;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 45px;
+}
+button{
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    background-color: #90b8f8;   
+}
+button:hover{    
+    background-color: #5f85db;
+}
+
+#weatherDate{
+    display: none;
+    color: white;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.397); 
+    padding: 2px;
+    border-radius: 5px;
+    width: 50%;
+}
