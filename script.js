@@ -1,6 +1,6 @@
 const searchButton = document.getElementById('search')
 let baseURL = 'https://api.openweathermap.org/data/2.5/weather'
-let apiKey= 'ca98ebe5a7d9b65aaee6e0142fe274d4';
+let apiKey= 'ca98ebe5a7d9b65aaee6e0142fe274d';
 let dfKelvin = 273.15;
 
 searchButton.addEventListener('click',() =>{
